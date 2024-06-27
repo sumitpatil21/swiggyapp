@@ -42,7 +42,7 @@ class _LocationpageState extends State<Locationpage> {
           ),
           Container(
             margin: EdgeInsets.all(5),
-            height: height / 1.9,
+            height: height / 2.2,
             width: double.infinity,
             decoration: BoxDecoration(
                 color: Colors.black12,
@@ -53,7 +53,7 @@ class _LocationpageState extends State<Locationpage> {
           InkWell(
             onTap: () {
               setState(() {
-                checkPermission(Permission.location, context);
+              checkPermission(Permission.location, context);
               });
             },
             child: Container(
