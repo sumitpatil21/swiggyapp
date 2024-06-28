@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:swiggyapp/SwiggyHomePage.dart';
 
+import 'GeniePage.dart';
 import 'Local_Must_Try.dart';
 import 'LocationPage.dart';
 import 'OfferZone.dart';
@@ -17,7 +18,7 @@ class Swiggyapp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: RestaurantawardsPage(),
+      home: Geniepage(),
     );
   }
 }
